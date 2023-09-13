@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="package run yapma" parallel="tests" thread-count="2" verbose="10">
+    <test name="Login Test">
+        <packages>
+            <package name="com.masterbranchacademy.tests.day_11"></package>
+            <package name="com.masterbranchacademy.tests.day_14"></package>
+        </packages>
+    </test>
+    <test name="Test2">
+        <packages>
+            <package name="com.masterbranchacademy.tests.day_13"></package>
+        </packages>
+    </test>
+</suite>
+       

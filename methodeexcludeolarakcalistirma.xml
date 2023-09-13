@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Method exclude run yapma">
+    <test name="Login and Excel Test">
+        <classes>
+            <class name="com.masterbranchacademy.tests.day_11.PropertiesTest">
+                <methods>
+                    <exclude name="driverTest">
+
+                    </exclude>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+       

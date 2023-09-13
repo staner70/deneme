@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="crossbrowser run yapma" verbose="10">
+    <test name="Firefox Test">
+        <parameter name="browser" value="firefox"></parameter>
+        <packages>
+            <package name="com.masterbranchacademy.tests.day_11"></package>
+        </packages>
+    </test>
+    <test name="Chrome Test">
+        <parameter name="browser" value="chrome"></parameter>
+        <packages>
+            <package name="com.masterbranchacademy.tests.day_11"></package>
+        </packages>
+    </test>
+</suite>
+       

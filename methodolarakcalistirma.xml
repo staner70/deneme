@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Method run yapma">
+    <test name="Login and Excel Test">
+        <classes>
+            <class name="com.masterbranchacademy.tests.day_11.PropertiesTest">
+                <methods>
+                    <include name="driverTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+       

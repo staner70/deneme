@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="package run yapma">
+    <test name="Login Test">
+        <packages>
+            <package name="com.masterbranchacademy.tests.*"/>
+        </packages>
+    </test>
+</suite>
+       
