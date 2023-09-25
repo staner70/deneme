@@ -4,6 +4,7 @@ import com.masterbranchacademy.utilities.BaseTest;
 import com.masterbranchacademy.utilities.ConfigReader;
 import com.masterbranchacademy.utilities.Driver;
 
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
 public class PropertiesTest extends BaseTest {
@@ -16,6 +17,8 @@ public class PropertiesTest extends BaseTest {
         String brow = ConfigReader.getProperties("browser");
         System.out.println("brow = " + brow);
     }
+
+    @Ignore
     @Test
     public void driverTest() throws InterruptedException {
 

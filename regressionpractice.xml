@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="package" verbose="10">
+    <test name="test practice">
+        <packages>
+            <package name="com.masterbranchacademy.tests.day_11"></package>
+        </packages>
+    </test>
+</suite>

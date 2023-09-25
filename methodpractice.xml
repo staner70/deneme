@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Method">
+    <test name="metod ile Test">
+        <classes>
+            <class name="com.masterbranchacademy.tests.day_11.PropertiesTest">
+                <methods>
+                    <exclude name="test1"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+       
